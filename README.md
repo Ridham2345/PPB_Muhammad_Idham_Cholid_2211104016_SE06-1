@@ -1,2 +1,3 @@
-# PPB_MuhammadIdhamCholid_2211104016_SE06-1
-https://github.com/Ridham2345/PPB_MuhammadIdhamCholid_2211104016_SE06-1/blob/83a3f9237b176e5e75c43fe129339340b76d65a8/visual%20stuido%20code.png
+# PPB_MuhammadIdhamCholid_2211104016_SE06-
+
+
