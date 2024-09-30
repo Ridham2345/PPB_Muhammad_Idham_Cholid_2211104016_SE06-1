@@ -24,7 +24,8 @@ widget adalah elemen dasar untuk membangun antarmuka pengguna (UI). Hampir semua
 </ol>
 
 # ➡️Membuat Project Flutter⬅️
-![Uploading image.png…]()
+
+![Screenshot 2024-09-30 214645](https://github.com/user-attachments/assets/8dbf99db-8071-4596-a4f0-734077f64d08)
 
 
 
