@@ -44,5 +44,14 @@ pilih stat run di dalam run diatas
 memilih emulator dikarenaka hp dan laptop saya ngga support jadi saya run pakai chrome
 ![memilih emulator](https://github.com/user-attachments/assets/f82a76e4-5222-4bf0-85c6-f0ae435ec082)
 
+hasil dari run 
+![hasil run project](https://github.com/user-attachments/assets/ad507495-e50a-4bc5-ae1d-43656f148dfd)
+
+# ➡️modifikasi halaman⬅️
+Hasil Modifikasi dan tambahan berapa elemen
+
+
+
+
 
 
