@@ -37,7 +37,12 @@ setelah itu memilih dimana project akan disimpan.
 ketik nama project dan tekan Enter.
 ![Nama Project](https://github.com/user-attachments/assets/7e686bf8-ac0c-42ed-a68e-3bbc65ed43d7)
 
+# ➡️Running⬅️
+pilih stat run di dalam run diatas
+![runing project](https://github.com/user-attachments/assets/1f3e0e37-3f22-4df4-b265-e39b981d3b9c)
 
+memilih emulator dikarenaka hp dan laptop saya ngga support jadi saya run pakai chrome
+![memilih emulator](https://github.com/user-attachments/assets/f82a76e4-5222-4bf0-85c6-f0ae435ec082)
 
 
 
