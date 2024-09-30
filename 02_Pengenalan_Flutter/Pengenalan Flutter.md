@@ -1,4 +1,4 @@
-![Screenshot 2024-09-30 215358](https://github.com/user-attachments/assets/82f0c113-ae39-45aa-861d-e5934236c80b)<li> Nama  : Muhammad Idham Cholid </li>
+<li> Nama  : Muhammad Idham Cholid </li>
 <li> NIM   : 2211104016 </li>
 <li> Kelas : SE-06-01 </li>
 
@@ -29,7 +29,7 @@ Tekan Ctrl + Shift + P atau Command + Shift + P, dan ketik "Flutter New Project"
 
 
 Lalu memilih Application.
-[Pilih Sesuai project ](https://github.com/user-attachments/assets/c7f3c7fd-8944-4204-9720-09b049acf658)
+![pilih sesuai project](https://github.com/user-attachments/assets/82f0c113-ae39-45aa-861d-e5934236c80b)
 
 setelah itu memilih dimana project akan disimpan.
 
