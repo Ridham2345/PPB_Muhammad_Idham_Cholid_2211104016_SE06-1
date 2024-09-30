@@ -32,9 +32,10 @@ Lalu memilih Application.
 ![pilih sesuai project](https://github.com/user-attachments/assets/82f0c113-ae39-45aa-861d-e5934236c80b)
 
 setelah itu memilih dimana project akan disimpan.
-
+![memilih tempat menyimpan](https://github.com/user-attachments/assets/13cb924b-3b93-4187-bf4c-cb7c0d81d663)
 
 ketik nama project dan tekan Enter.
+![Nama Project](https://github.com/user-attachments/assets/7e686bf8-ac0c-42ed-a68e-3bbc65ed43d7)
 
 
 
