@@ -2,15 +2,16 @@
 <li> NIM   : 2211104016 </li>
 <li> Kelas : SE-06-01 </li>
 
-#Pengenalan Flutter
+# Pengenalan Flutter
+
 1.
 # ➡️Dart⬅️
 Dart adalah bahasa pemrograman yang dikembangkan oleh Google, dirancang untuk membangun aplikasi front-end, terutama aplikasi mobile, web, dan desktop. Dart bersifat statically typed namun fleksibel, yang artinya jenis data diidentifikasi saat kompilasi, tetapi pengembang dapat menggunakan sintaks yang ringkas.
 
-#Flutter#
+# ➡️Flutter⬅️
 Flutter adalah framework open-source yang dikembangkan oleh Google untuk membangun aplikasi lintas platform (Android, iOS, web, dan desktop) menggunakan satu basis kode. Flutter memungkinkan pengembang untuk membuat antarmuka pengguna (UI) yang menarik dan responsif secara efisien.
 
-#Widget#
+# ➡️Widget⬅️
 widget adalah elemen dasar untuk membangun antarmuka pengguna (UI). Hampir semua hal di Flutter, termasuk tata letak, kontrol, dan gaya, adalah widget. Berikut beberapa jenis widget yang umum digunakan dalam Flutter beserta contoh.
 
 <ol>
