@@ -1,4 +1,4 @@
-<li> Nama  : Muhammad Idham Cholid </li>
+![Screenshot 2024-09-30 215358](https://github.com/user-attachments/assets/82f0c113-ae39-45aa-861d-e5934236c80b)<li> Nama  : Muhammad Idham Cholid </li>
 <li> NIM   : 2211104016 </li>
 <li> Kelas : SE-06-01 </li>
 
@@ -24,8 +24,19 @@ widget adalah elemen dasar untuk membangun antarmuka pengguna (UI). Hampir semua
 </ol>
 
 # ➡️Membuat Project Flutter⬅️
+Tekan Ctrl + Shift + P atau Command + Shift + P, dan ketik "Flutter New Project".
+![Widget Flutter]((https://github.com/user-attachments/assets/8dbf99db-8071-4596-a4f0-734077f64d08)
+)
+Lalu pilih Application.
+![Widget Flutter](https://github.com/user-attachments/assets/fedc4339-4b28-4580-b002-5de87f9cec71)
 
-![Screenshot 2024-09-30 214645](https://github.com/user-attachments/assets/8dbf99db-8071-4596-a4f0-734077f64d08)
+Lalu pilih dimana project akan disimpan.
+![Widget Flutter](img/03_membuatProject.png)
+
+Ketik nama project dan tekan Enter.
+![Widget Flutter](img/04_membuatProject.png)
+
+![](https://github.com/user-attachments/assets/8dbf99db-8071-4596-a4f0-734077f64d08)
 
 
 
