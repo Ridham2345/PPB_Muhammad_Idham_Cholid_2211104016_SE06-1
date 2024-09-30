@@ -27,17 +27,15 @@ widget adalah elemen dasar untuk membangun antarmuka pengguna (UI). Hampir semua
 Tekan Ctrl + Shift + P atau Command + Shift + P, dan ketik "Flutter New Project".
 ![New Project](https://github.com/user-attachments/assets/85a28fa9-18bb-45c8-9878-bb1710b269b9)
 
-)
-Lalu pilih Application.
+
+Lalu memilih Application.
+[Pilih Sesuai project ](https://github.com/user-attachments/assets/c7f3c7fd-8944-4204-9720-09b049acf658)
+
+setelah itu memilih dimana project akan disimpan.
 
 
-Lalu pilih dimana project akan disimpan.
-![Widget Flutter](img/03_membuatProject.png)
+ketik nama project dan tekan Enter.
 
-Ketik nama project dan tekan Enter.
-![Widget Flutter](img/04_membuatProject.png)
-
-![](https://github.com/user-attachments/assets/8dbf99db-8071-4596-a4f0-734077f64d08)
 
 
 
