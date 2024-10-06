@@ -1,4 +1,4 @@
-#Praktikum Pernagkat Bergerak
+Praktikum Pernagkat Bergerak
 
 <li>Muhammad Idham Cholid</li>
 <li>2211104016</li>
