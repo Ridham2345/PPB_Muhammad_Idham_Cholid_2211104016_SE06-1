@@ -1,3 +1,14 @@
-<li>Muhammad Idham Cholid</li>
-<li>2211104016</li>
-<li>SE06-01</li>
+# LAPORAN PRAKTIKUM PEMOGRAMAN PERANGKAT BERGERAK
+## Modul 3
+### Image
+
+**Oleh:**
+- Nama: Aufa Muhammad Isyfa'Lana
+- NIM: 2211104015
+- Kelas: SE06A
+
+**Program Studi:**  
+S1 Rekayasa Perangkat Lunak  
+Fakultas Informatika  
+Telkom University Purwokerto  
+2024
