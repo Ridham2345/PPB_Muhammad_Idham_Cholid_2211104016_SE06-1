@@ -1,23 +1,25 @@
-TUGAS PENDAHULUAN 
-PEMROGRAMAN PERANGKAT BERGERAK  
-MODUL IV 
-ANTARMUKA PENGGUNA 
+                                      TUGAS PENDAHULUAN 
+                                 PEMROGRAMAN PERANGKAT BERGERAK  
+                                           MODUL IV 
+                                     ANTARMUKA PENGGUNA 
+                                     
 ![Picture1](https://github.com/user-attachments/assets/aa7012b5-09e9-4669-8a2f-d6d48de1c033)
- Disusun Oleh:
-Muhammad Idham Cholid
-2211104016
-SE-06-01
-Asisten Praktikum: 
-Muhammad Faza Zulian Gesit Al Barru 
-Aisyah Hasna Aulia  
+                                       
+                                       Disusun Oleh:
+                                   Muhammad Idham Cholid
+                                         2211104016
+                                          SE-06-01
+                                      Asisten Praktikum: 
+                             Muhammad Faza Zulian Gesit Al Barru 
+                                      Aisyah Hasna Aulia  
 
-Dosen Pengampu: 
-Yudha Islami Sulistya, S.Kom., M.Cs. 
+                                        Dosen Pengampu: 
+                               Yudha Islami Sulistya, S.Kom., M.Cs. 
 
-PROGRAM STUDI S1 SOFTWARE ENGINEERING 
-FAKULTAS INFORMATIKA 
-TELKOM UNIVERSITY PURWOKERTO 
-2024 
+                               PROGRAM STUDI S1 SOFTWARE ENGINEERING 
+                                       FAKULTAS INFORMATIKA 
+                                   TELKOM UNIVERSITY PURWOKERTO 
+                                               2024 
 
  
 TUGAS PENDAHULUAN 
@@ -95,19 +97,10 @@ class _MyHomePageState extends State<MyHomePage> {
               style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
             ),
             Image.network(
-              'https://media.suara.com/pictures/653x366/2019/09/03/53238-instagram-irawan-daink-alfarizi.jpg',
+              'https://media.suara.com/pictures/653x366/2019/09/03/53238-instagram-irawan-   daink-alfarizi.jpg',
               width: 700,
               height: 300,
             ),
-
-
-
-
-
-
-
-
-
 
             const Padding(
               padding: EdgeInsets.all(16.0),
@@ -132,7 +125,8 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 Screenshoot Output  
- ![Screenshot 2024-10-07 195538](https://github.com/user-attachments/assets/bf419df0-46d3-4e77-b643-ae4a74acca42)
+
+ ![Hasil Output](https://github.com/user-attachments/assets/bf419df0-46d3-4e77-b643-ae4a74acca42)
 
   
 Deskripsi Program 
