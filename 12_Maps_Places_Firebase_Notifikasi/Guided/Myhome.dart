@@ -11,7 +11,7 @@ class MyHome extends StatefulWidget {
 
 class _MyHomeState extends State<MyHome> {
   static final LatLng _kMapCenter =
-      LatLng(-7.4346511961784465, 109.25254851151722);
+      LatLng(-6.9756108,109.6777462);
   static final CameraPosition _kInitialPosition = CameraPosition(
     target: _kMapCenter,
     zoom: 20,
