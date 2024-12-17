@@ -18,23 +18,24 @@ class HomeScreen extends StatelessWidget {
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 0, 0, 0),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(12.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Obx(() {
-              if (postController.isLoading.value) {
-                return const Center(child: CircularProgressIndicator());
-              }
-
-              return postController.posts.isEmpty
-                  ? const Text(
-                      "Tekan tombol GET untuk mengambil data",
-                      style: TextStyle(fontSize: 12),
-                    )
-                  : Expanded(
-                      child: ListView.builder(
+      body: Column(
+        children: [
+          // Konten data
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Obx(() {
+                if (postController.isLoading.value) {
+                  return const Center(child: CircularProgressIndicator());
+                }
+                return postController.posts.isEmpty
+                    ? const Center(
+                        child: Text(
+                          "Tekan tombol GET untuk mengambil data",
+                          style: TextStyle(fontSize: 12),
+                        ),
+                      )
+                    : ListView.builder(
                         itemCount: postController.posts.length,
                         itemBuilder: (context, index) {
                           return Padding(
@@ -45,8 +46,9 @@ class HomeScreen extends StatelessWidget {
                                 title: Text(
                                   postController.posts[index]['title'],
                                   style: const TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 12),
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 12,
+                                  ),
                                 ),
                                 subtitle: Text(
                                   postController.posts[index]['body'],
@@ -56,35 +58,69 @@ class HomeScreen extends StatelessWidget {
                             ),
                           );
                         },
-                      ),
-                    );
-            }),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () => postController.fetchPosts(),
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
-              child: const Text('GET'),
+                      );
+              }),
             ),
-            const SizedBox(height: 10),
-            ElevatedButton(
-              onPressed: () => postController.createPost(),
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-              child: const Text('POST'),
+          ),
+
+          // Kontainer untuk tombol-tombol
+          Container(
+            padding: const EdgeInsets.all(16.0),
+            color: Colors.grey[200], // Warna latar belakang ringan
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                SizedBox(
+                  width: double.infinity, // Tombol memenuhi lebar layar
+                  child: ElevatedButton(
+                    onPressed: () => postController.fetchPosts(),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.orange,
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                    ),
+                    child: const Text('GET'),
+                  ),
+                ),
+                const SizedBox(height: 10),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () => postController.createPost(),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.green,
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                    ),
+                    child: const Text('POST'),
+                  ),
+                ),
+                const SizedBox(height: 10),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () => postController.updatePost(),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blue,
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                    ),
+                    child: const Text('UPDATE'),
+                  ),
+                ),
+                const SizedBox(height: 10),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () => postController.deletePost(),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.red,
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                    ),
+                    child: const Text('DELETE'),
+                  ),
+                ),
+              ],
             ),
-            const SizedBox(height: 10),
-            ElevatedButton(
-              onPressed: () => postController.updatePost(),
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
-              child: const Text('UPDATE'),
-            ),
-            const SizedBox(height: 10),
-            ElevatedButton(
-              onPressed: () => postController.deletePost(),
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
-              child: const Text('DELETE'),
-            ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
